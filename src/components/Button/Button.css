@@ -1,0 +1,16 @@
+.btn{
+    min-width: 10%;
+    background: transparent;
+    border: 1px solid var(--primary_color);
+    padding: 1% 2%;
+    color: var(--primary_color);
+    border-radius: 20px;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--primary_color);
+    color: var(--black_color);
+}

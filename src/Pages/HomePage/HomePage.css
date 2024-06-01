@@ -1,0 +1,78 @@
+.home_hero{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home_hero_content{
+    width: 50%;
+}
+.home_hero .home_hero_content h1{
+    text-transform: capitalize;
+    color: var(--primary_color);
+    font-size: 3em;
+}
+.home_hero .home_hero_content span{
+    color: var(--secondary_color);
+    opacity: .9;
+}
+.home_hero_content p{
+    color: var(--secondary_color);
+    font-size: .9em;
+    margin-bottom: 4%;
+    opacity: .7;
+}
+.home_hero_img{
+    width: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    height: 100vh;
+}
+.why-us{
+    text-align: center;
+    color: var(--secondary_color);
+    opacity: .4;
+    text-transform: capitalize;
+}
+
+.topics{
+    margin: auto;
+    width: 90%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-us{
+    padding: 2% 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text-left{
+    width: 50%;
+}
+.about-us-heading h1{
+    color: var(--primary_color);
+    opacity: .7;
+}
+.text-left .about-us-heading p{
+    color: var(--primary_color);
+    opacity: .8;
+    font-weight: bold;
+}
+.text-left p{
+    color: var(--secondary_color);
+    opacity: .4;
+}
+.text-left span{
+    color: var(--primary_color);
+    font-weight: 600;
+}
+.about-right{
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+    object-fit: contain;
+}

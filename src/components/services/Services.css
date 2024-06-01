@@ -1,0 +1,16 @@
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-card{
+    width: 30%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img-container p{
+    color: var(--primary_color);
+    opacity: .6;
+    font-weight: 600;
+}

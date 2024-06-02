@@ -1,0 +1,15 @@
+.leaders_card{
+    width: 20em;
+    min-height: 20em;
+}
+.leaders_card_img{
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.leaders_card h1{
+    font-size: 1em;
+    color: var(--secondary_color);
+}

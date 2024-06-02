@@ -33,8 +33,8 @@ export default function Footer() {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/leadership">Leadership</a></li>
-                    <li><a href="/Tracks">Tracks</a></li>
-                    <li><a href="/Events">Events</a></li>
+                    <li><a href="/tracks">Tracks</a></li>
+                    <li><a href="/events">Events</a></li>
                 </ul>
             </div>
         </div>

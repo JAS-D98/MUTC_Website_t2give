@@ -1,0 +1,47 @@
+.leadership{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+    text-align: center;
+}
+.leadership h1{
+    color: var(--primary_color);
+    font-size: 3em;
+}
+.leadership span{
+    color: var(--secondary_color);
+}
+.leadership p{
+    color: var(--secondary_color);
+}
+.patron{
+    margin: 4% auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.patron_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leadership hr{
+    width: 100%;
+    background: var(--primary_color);
+    margin-bottom: 2%;
+}
+.leaders_container{
+    /* background: var(--primary_color); */
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}

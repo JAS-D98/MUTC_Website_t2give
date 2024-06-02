@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage/HomePage.jsx";
 import Leadership from './Pages/Leadership/Leadership.jsx'
 import Footer from "./components/Footer/Footer.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
+import TracksPage from "./Pages/TracksPage/TracksPage.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
          <Route path="/" element={<HomePage/>}/>
          <Route path="/Leadership" element={<Leadership/>}/>
+         <Route path="/tracks" element={<TracksPage/>}/>
       </Routes>
     </BrowserRouter>
      <Footer/>

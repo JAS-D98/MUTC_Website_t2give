@@ -16,7 +16,7 @@ export default function Leadership() {
         <LeadersCard image={Testimonial1} alt="image of a man" description="Patron of the club" name="Dr. John Ndia" className="patron_el"/>
         <div className='patron_title'>
           <h1>A word from our patron</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate asperiores doloremque. Blanditiis iste aliquid officiis inventore perspiciatis officia alias consectetur voluptatum repellendus, voluptates esse illum quas, quia distinctio. Eligendi.</p>
+          <p>Lorem ipsum dolor si amet consectetur adipisicing elit. Voluptas cupiditate asperiores doloremque. Blanditiis iste aliquid officiis inventore perspiciatis officia alias consectetur voluptatum repellendus, voluptates esse illum quas, quia distinctio. Eligendi.</p>
         </div>
       </div>
       <hr/>

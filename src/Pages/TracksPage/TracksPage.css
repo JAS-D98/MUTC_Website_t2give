@@ -1,0 +1,53 @@
+.tracks{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    opacity: .7;
+}
+.tracks h1{
+    font-size: 3.5em;
+    color: var(--primary_color);
+}
+.tracks h1 span, .tracks p{
+    color: var(--secondary_color);
+}
+.tracks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form{
+    margin:auto;
+    width: 50%;
+}
+form{
+    text-align: left;
+}
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.form-input-container label{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    margin-bottom: 1%;
+}
+.form-btn{
+    margin-top: 2%;
+}
+select{
+    background: var(--black_color);
+    padding: 8px;
+    font-size: 1em;
+    color: var(--secondary_color);
+    outline: none;
+    border: 2px solid var(--primary_color);
+    opacity: .6;
+}

@@ -63,7 +63,7 @@ The Events Page serves as a comprehensive guide to the weekly schedule of MUTC. 
 
 Below is the schedule:
 
-Cyber security - every Monday from 4pm to 7pm at computer lab F04, led by Webster Ifedha.
+Cyber security - Cyber security at computer lab F04, led by Webster Ifedha.
 
 UI/UX - every Tuesday from 5pm to 8pm at computer lab F04, led by Manase Gunga.
 

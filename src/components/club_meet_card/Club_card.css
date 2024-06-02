@@ -1,0 +1,20 @@
+.club_card{
+    width: 20em;
+    height: 10em;
+    background: #121417;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0px var(--primary_color);
+}
+.club_card h1{
+    font-size: 1.3em;
+    text-align: left;
+}
+.club_card p{
+    color: var(--secondary_color);
+    opacity: .7;
+}
+.club_card span{
+    color: var(--primary_color);
+    margin-right: 1%;
+}

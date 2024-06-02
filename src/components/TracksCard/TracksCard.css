@@ -1,0 +1,25 @@
+.track-card{
+    width: 25em;
+    height: 20em;
+    background: #131820;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    overflow: hidden;
+    border: 1px solid var(--primary_color);
+}
+.track-card h1{
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.track-card p{
+    font-size: .9em;
+}
+.track-card span{
+    height: 2px;
+    background: var(--primary_color);
+    width: 30%;
+    border-radius: 10px;
+}

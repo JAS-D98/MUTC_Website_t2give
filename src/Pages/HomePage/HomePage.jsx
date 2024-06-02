@@ -19,11 +19,11 @@ export default function HomePage() {
   return (
     <div className="home">
       <div className="home_hero">
-      <div className="home_hero_content">
-      <h1>We are dedicated to <span>advance our members knowledge </span>in programming and technology.</h1> 
-      <p>Get to unleash your hidden potential. Upgrade your productivity <br />with us and be a world class dev.</p>
-      <Button title="Let's Get Started"/>
-      </div>
+        <div className="home_hero_content">
+          <h1>We are dedicated to <span>advance our members knowledge </span>in programming and technology.</h1> 
+          <p>Get to unleash your hidden potential. Upgrade your productivity <br />with us and be a world class dev.</p>
+          <Button title="Let's Get Started"/>
+        </div>
       <div className='home_hero_img'>
         <img src={robot} alt="image of a robot"  width="100%" height="100%"/>
       </div>

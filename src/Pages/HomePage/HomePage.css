@@ -152,6 +152,9 @@
     
 }
 @media(max-width:54.3em){
+    .home_hero .home_hero_content h1{
+        font-size: 2em;
+    }
     .about-us{
         flex-direction: column;
         justify-content: center;

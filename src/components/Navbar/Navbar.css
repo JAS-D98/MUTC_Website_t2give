@@ -71,14 +71,6 @@
     .header .menu-el{
         display: none;
     }
-    .menu-small{
-        float: right;
-        width: 50%;
-        display: block;
-        background: var(--primary_color);
-        min-height: 100vh;
-        text-align: center;
-    }
     .menu-small p{
         margin: 15%;
         padding: 1em 2em;

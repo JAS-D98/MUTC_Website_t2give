@@ -37,11 +37,26 @@
     margin-bottom: 2%;
 }
 .leaders_container{
-    /* background: var(--primary_color); */
     width: 100%;
     min-height: 90vh;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
     justify-content: center;
+}
+
+@media(max-width:47.8em){
+    .patron_title h1{
+        font-size: 2em;
+    }
+    .leadership h1{
+        font-size: 2.5em;
+    }
+}
+@media(max-width:43.5em){
+    .patron{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 }

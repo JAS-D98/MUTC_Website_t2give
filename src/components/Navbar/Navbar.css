@@ -11,6 +11,7 @@
     overflow: hidden;
     padding: .5% 0%;
     background: var(--black_color);
+    opacity: .6;
 }
 .header h1{
     color: var(--primary_color);

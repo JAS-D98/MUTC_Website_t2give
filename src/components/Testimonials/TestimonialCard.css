@@ -4,6 +4,7 @@
     background:linear-gradient(to bottom, #08213D 0%, #0e161e 100%);
     border-radius: 10px;
     padding: 20px 20px;
+    box-shadow: 0px 2px 0px 0px #08213D;
 }
 .testimonial-img{
     width: 2.5em;

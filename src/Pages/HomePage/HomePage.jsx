@@ -58,7 +58,7 @@ export default function HomePage() {
       <div className="textimonial_container">
       <TestimonialCard image={Testimonial1} alt="image of a young man" name="James Njuguna" message="Through this club, I was able to build beautiful UIs with ease as well as create my own sophisticated themes and layouts."/>
       <TestimonialCard image={Testimonial2} alt="image of a lady man" name="Mary Njuguna" message="The club has all that you need on matters of modern technology under one roof which is a huge help for every student."/>
-      <TestimonialCard image={Testimonial3} alt="image of a lady man" name="Winney Owino" message="I love the fact that the clubs believes in building everyone and have everyone be better than they were initially."/>
+      <TestimonialCard image={Testimonial3} alt="image of a lady man" name="Winney Owino" message="I love the fact that the club believes in building everyone and have everyone be better than they were initially."/>
       <TestimonialCard image={Testimonial4} alt="image of a young man" name="Phillip Kipchumba" message="The answer to any question you might have can be found in this group as there are over 2,000 contributors who are always willing to help."/>
       </div>
       <div className="call_to_action">

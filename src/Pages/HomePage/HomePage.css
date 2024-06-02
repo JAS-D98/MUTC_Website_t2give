@@ -98,7 +98,9 @@
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 .call_to_action{
     display: flex;
@@ -113,8 +115,84 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .call_to_action_msg p{
     color: var(--secondary_color);
     font-size: 1em;
+}
+
+@media(max-width:66em){
+    .home_hero_content{
+        width: 40%;
+    }
+}
+@media(max-width:61.9em){
+    .home_hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_hero_content{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .home_hero_img{
+        height: 60vh;
+    }
+    .call_to_action{
+        margin-top: 1%;
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:54.3em){
+    .about-us{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-left{
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .about-right{
+        margin:5% auto;
+        width: 80%;
+    }
+    .heading{
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .topics{
+        margin: auto;
+        width: 90%;
+    }
+    .call_to_action_msg{
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .call_to_action_msg h1{
+        font-size: 1.6em;
+    }
+}
+@media(max-width:31em){
+    .testimonials{
+        margin-top: -6em;
+    }
+    .heading h1{
+        font-size: 1.5em;
+    }
+    .home_hero_img{
+        margin: auto;
+        width: 90%;
+    }
 }

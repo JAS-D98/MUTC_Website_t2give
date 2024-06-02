@@ -9,6 +9,7 @@
     font-weight: 600;
     cursor: pointer;
     padding: 12px 20px;
+    text-transform: capitalize;
 }
 
 .btn:hover{

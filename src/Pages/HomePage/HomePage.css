@@ -6,6 +6,7 @@
 }
 .home_hero_content{
     width: 50%;
+    opacity: .7;
 }
 .home_hero .home_hero_content h1{
     text-transform: capitalize;
@@ -14,13 +15,11 @@
 }
 .home_hero .home_hero_content span{
     color: var(--secondary_color);
-    opacity: .9;
 }
 .home_hero_content p{
     color: var(--secondary_color);
     font-size: .9em;
     margin-bottom: 4%;
-    opacity: .7;
 }
 .home_hero_img{
     width: 50%;
@@ -28,7 +27,7 @@
     object-fit: contain;
     height: 100vh;
 }
-.why-us{
+.why-us, .heading{
     text-align: center;
     color: var(--secondary_color);
     opacity: .4;
@@ -55,11 +54,11 @@
 }
 .about-us-heading h1{
     color: var(--primary_color);
-    opacity: .7;
+    opacity: .4;
 }
 .text-left .about-us-heading p{
-    color: var(--primary_color);
-    opacity: .8;
+    color: var(--secondary_color);
+    opacity: .4;
     font-weight: bold;
 }
 .text-left p{
@@ -75,4 +74,47 @@
     height: 70vh;
     overflow: hidden;
     object-fit: contain;
+}
+.heading{
+    margin-top: 2%;
+}
+.heading h1{
+    color: var(--primary_color);
+}
+.heading p{
+    color: var(--secondary_color);
+    font-weight: bold;
+    opacity:1;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textimonial_container{
+    margin: 2% auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call_to_action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4em;
+    font-size: 1.5em;
+    color: var(--primary_color);
+    opacity: .4;
+}
+.call_to_action_msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call_to_action_msg p{
+    color: var(--secondary_color);
+    font-size: 1em;
 }

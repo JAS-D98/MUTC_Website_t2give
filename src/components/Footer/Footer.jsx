@@ -11,21 +11,20 @@ export default function Footer() {
     <footer>
     <div className='footer_items'>
         <div className='footer-left'>
-        <div className='logo-img'>
-        <div className='logo'>
-                <img src={Logo} alt="image of a logo"/>
-        </div>
-        <p>MUTC</p>
-        </div>
-        <p>Stay Up to date with us</p>
-        <p>Join our newsletter for regular updates.</p>
-        <form>
-        <label htmlFor="email">Your email</label>
-        <div>
-            <input type="email" placeholder='example@gmail.com' id='email' />
-            <Button title="Subscribe"/>
-        </div>
-        </form>
+            <div className="footer_max_log">
+                <div className="foot_log_img_container">
+                    <img src={Logo} alt="image of a logo" width="100%" height="100%"/>
+                </div>
+            </div>
+            <p>Stay Up to date with us</p>
+            <p>Join our newsletter for regular updates.</p>
+            <form>
+            <label htmlFor="email">Your email</label>
+            <div className='form_div'>
+                <input type="email" placeholder='example@gmail.com' id='email' />
+                <Button title="Subscribe"/>
+            </div>
+            </form>
         </div>
         <div className="footer_right">
             <div className="footer_links">

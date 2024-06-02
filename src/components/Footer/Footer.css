@@ -12,21 +12,34 @@ footer{
     color: var(--secondary_color);
     font-size: .9em;
     opacity: .7;
-    min-width: 40%;
+    display: flex;
+    flex-direction: column;
 }
-.logo-img{
+.footer-left .logo-img{
     display: flex;
     color: var(--primary_color);
     align-items: center;
     font-size: 1.5em;
     font-weight: bold;
+    width: 100%;
 }
-.logo-img p{
-    margin-left: -3%;
 
+.foot_log_img_container{
+    width: 12em;
+    height: 6em;
+    object-fit: cover;
+    overflow: hidden;
+}
+.foot-cards{
+    width: 100%;
 }
 form label{
     color: var(--primary_color);
+}
+.form_div{
+    display: flex;
+    align-items: center;
+    gap: 1%;
 }
 
 form input{
@@ -76,4 +89,30 @@ form input{
     color: var(--secondary_color);
     font-size: 1em;
     opacity: .6;
+}
+
+@media(max-width:53.2em){
+    footer{
+        text-align: center;
+    }
+    .footer_max_log{
+        display: flex;
+        justify-content: center;
+    }
+.footer_items{
+    flex-direction: column;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }

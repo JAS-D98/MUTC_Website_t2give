@@ -4,6 +4,7 @@ import navLinks from './Navbar'
 import logo from '../../assets/images/logo.svg'
 import Button from '../Button/Button'
 import menu from './../../assets/images/menu.png'
+import close from './../../assets/images/close.svg'
 
 const Menu=()=>{
     return (
@@ -49,7 +50,7 @@ export default function Navbar() {
         
       <div className='gpt3__navbar-menu'>
         {toggleMenu
-        ? <img src={menu} alt="close icon" width={30} height={30} onClick={()=>setToggleMenu(false)}/>
+        ? <img src={close} alt="close icon" width={30} height={30} onClick={()=>setToggleMenu(false)}/>
         : <img src={menu} alt="menu icon" width={30} height={30} onClick={()=>setToggleMenu(true)}/>
         }
         {toggleMenu && (

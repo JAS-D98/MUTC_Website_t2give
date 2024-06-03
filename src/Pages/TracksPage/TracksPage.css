@@ -28,6 +28,11 @@
 }
 form{
     text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+form h1{
+    text-align: center;
 }
 .form-input-container{
     display: flex;

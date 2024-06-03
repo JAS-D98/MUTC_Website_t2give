@@ -35,18 +35,6 @@ export default function Navbar() {
             
         <Button title="Join Group" className="btn"/>
         </span>
-        {/* <div className="menu-small">
-            {toggleMenu
-            ? <img src={menu} alt="menu" size={20} onClick={()=>setToggleMenu(false)}/>:
-            <img src={menu} alt="menu" size={20} onClick={()=> setToggleMenu(true)}/>
-            }
-            {toggleMenu && (
-                <div className='menu_container scale-up-center'>
-                <Menu className="links-small"/>
-                <Button title="Join Group" className="btn"/>
-                </div>
-            )}
-        </div> */}
         
       <div className='gpt3__navbar-menu'>
         {toggleMenu

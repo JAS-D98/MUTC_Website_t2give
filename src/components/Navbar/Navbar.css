@@ -1,11 +1,12 @@
 .header-el{
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     background: black;
 }
 .header{
     width: 100%;
-    height: 8vh;
+    height: 10vh;
+    padding: 2px  0px;
     display: flex;
     align-items: center;
     justify-content: space-between;

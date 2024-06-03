@@ -5,9 +5,12 @@ import Button from '../Button/Button'
 import { FaFacebook} from "react-icons/fa";
 import { FaXTwitter} from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import curve from './../../assets/images/shape.svg'
 
 export default function Footer() {
   return (
+    <> 
+     <img src={curve} alt="image of a curve" />
     <footer>
     <div className='footer_items'>
         <div className='footer-left'>
@@ -57,5 +60,6 @@ export default function Footer() {
     </div>
     <p className='copyright'>&copy; || All Rights Reserved</p>
     </footer>
+    </>
   )
 }

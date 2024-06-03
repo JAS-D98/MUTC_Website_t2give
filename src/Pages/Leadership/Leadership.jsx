@@ -1,6 +1,5 @@
 import React from 'react'
 import './Leadership.css'
-import curve from './../../assets/images/shape.svg'
 import LeadersCard from '../../components/LeadersCard/LeadersCard.jsx'
 import Testimonial1 from './../../assets/images/Testimonial1.png'
 import Testimonial2 from './../../assets/images/Testimonial2.png'
@@ -28,7 +27,6 @@ export default function Leadership() {
         <LeadersCard image={Testimonial4} alt="image of a man" description="Chairperson of the club" name="Allan Muhari"/>
         <LeadersCard image={Testimonial4} alt="image of a man" description="Chairperson of the club" name="Allan Muhari"/>
       </div>
-      <img src={curve} alt="image of a curve" />
     </div>
   )
 }

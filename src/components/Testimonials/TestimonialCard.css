@@ -1,6 +1,6 @@
 .testimonial-card{
     width: 15em;
-    height: 15em;
+    min-height: 15em;
     background:linear-gradient(to bottom, #08213D 0%, #0e161e 100%);
     border-radius: 10px;
     padding: 20px 20px;

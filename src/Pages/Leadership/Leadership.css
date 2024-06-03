@@ -56,8 +56,13 @@
 }
 @media(max-width:43.5em){
     .patron{
+        margin: auto;
+        width: 80%;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+    .leaders_container{
+        width: 80%;
     }
 }

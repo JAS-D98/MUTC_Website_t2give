@@ -1,6 +1,6 @@
 .track-card{
     max-width: 25em;
-    height: 20em;
+    min-height: 20em;
     background: #131820;
     display: flex;
     flex-direction: column;

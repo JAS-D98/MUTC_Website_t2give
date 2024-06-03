@@ -1,5 +1,7 @@
 .header-el{
     width: 100%;
+    height: 8vh;
+    background: black;
 }
 .header{
     width: 100%;
@@ -11,7 +13,8 @@
     overflow: hidden;
     padding: .5% 0%;
     background: var(--black_color);
-    opacity: .6;
+    position: fixed;
+    margin-top: -.5em;
 }
 .header h1{
     color: var(--primary_color);
@@ -50,6 +53,90 @@
 }
 .menu-small{
     display: none;
+}
+.menu__cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+    width: 60%;
+    padding: 0px 20px;
+}
+.gpt3__navbar-menu {
+    margin-left: 1rem;
+    padding-right: 20px;
+    display: none;
+    position: relative;
+}
+
+.gpt3__navbar-menu img {
+    cursor: pointer;
+}
+
+.gpt3__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.gpt3__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.gpt3__navbar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+    .menu__cont{
+        display: none;
+    }
+    .header{
+        opacity: 1;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 20px;
+    }
+
+    .gpt3__navbar-menu_container-links-sign {
+        display: block;
+    }
 }
 
 @media screen and (max-width:1052px) {
@@ -90,4 +177,32 @@
 .icon{
     color: #fff;
     cursor: pointer;
+}
+
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }

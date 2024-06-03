@@ -1,6 +1,6 @@
 import React from 'react'
 import './Events.css'
-import Club_card from '../../components/club_meet_card/Club_card'
+import Club_card from '../../components/club_meet_card/Club_card.jsx'
 
 export default function Events() {
   return (

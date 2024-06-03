@@ -1,7 +1,7 @@
 import React from 'react'
 import './Leadership.css'
 import curve from './../../assets/images/shape.svg'
-import LeadersCard from '../../components/LeadersCard/LeadersCard'
+import LeadersCard from '../../components/LeadersCard/LeadersCard.jsx'
 import Testimonial1 from './../../assets/images/Testimonial1.png'
 import Testimonial2 from './../../assets/images/Testimonial2.png'
 

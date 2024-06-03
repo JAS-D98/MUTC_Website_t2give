@@ -7,5 +7,3 @@ import Testimonial5 from './../../assets/images/Testimonial1.png'
 const leadersCards=[
     {image:Testimonial1,  }
 ]
-
-export default leadersCards;

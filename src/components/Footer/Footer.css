@@ -80,6 +80,7 @@ form input{
     align-items: center;
     opacity: .6;
     gap: 1em;
+    cursor: pointer;
 }
 .social_icons{
     color: var(--secondary_color);

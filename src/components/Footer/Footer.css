@@ -130,3 +130,10 @@ form{
     justify-content: center;
 }
 }
+
+@media screen and (max-width:45em) {
+    .form_div{
+        flex-direction: column;
+    }
+    
+}

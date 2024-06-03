@@ -15,6 +15,7 @@
     background: var(--black_color);
     position: fixed;
     margin-top: -.5em;
+    z-index: 2;
 }
 .header h1{
     color: var(--primary_color);

@@ -29,6 +29,7 @@ footer{
     height: 6em;
     object-fit: cover;
     overflow: hidden;
+    cursor: pointer;
 }
 .foot-cards{
     width: 100%;
@@ -65,6 +66,9 @@ form input{
     text-decoration: none;
     padding: 10px 20px;
 }
+.footer_links ul li a:hover{
+    color: var(--primary_color);
+}
 .media_container, .footer_links{
     text-align: center;
     color: var(--primary_color);
@@ -82,8 +86,14 @@ form input{
 .social_icons{
     color: var(--secondary_color);
 }
+.social_icons:hover{
+    color: var(--primary_color);
+}
 .media_img p{
     color: var(--secondary_color);
+}
+.media_img p:hover{
+    color: var(--primary_color);
 }
 .copyright{
     color: var(--secondary_color);

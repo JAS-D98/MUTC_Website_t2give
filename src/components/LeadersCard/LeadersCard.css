@@ -1,9 +1,9 @@
 .leaders_card{
-    width: 20em;
+    max-width: 20em;
     min-height: 20em;
 }
 .leaders_card_img{
-    width: 20em;
+    max-width: 20em;
     height: 20em;
     object-fit: cover;
     overflow: hidden;

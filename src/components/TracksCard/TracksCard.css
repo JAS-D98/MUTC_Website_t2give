@@ -1,5 +1,5 @@
 .track-card{
-    width: 25em;
+    max-width: 25em;
     height: 20em;
     background: #131820;
     display: flex;

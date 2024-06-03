@@ -55,10 +55,13 @@ export default function Navbar() {
         {toggleMenu && (
            <div className="gpt3__navbar-menu_container scale-up-center">
                <div className="gpt3__navbar-menu_container-links">
-                <Menu/>
                 <div className='gpt3__navbar-menu_container-links-sign'>
-                <p>Sign in</p>
-                <button className='button'>Sign Up</button>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/leadership">Leadership</a></li>
+                    <li><a href="/tracks">Tracks</a></li>
+                    <li><a href="/events">Events</a></li>
+                </ul>
                </div>
                </div>
            </div>

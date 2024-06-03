@@ -13,7 +13,7 @@
     font-size: 1em;
     color: var(--secondary_color);
 }
-@media(max-width:43.5em){
+@media screen and (max-width:43.5em){
     .leaders_card_img{
         max-width: 20em;
     }

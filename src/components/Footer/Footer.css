@@ -99,6 +99,11 @@ form input{
     font-size: 1em;
     opacity: .6;
 }
+.curve_foot{
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
 
 @media(max-width:53.2em){
     footer{

@@ -10,7 +10,9 @@ import curve from './../../assets/images/shape.svg'
 export default function Footer() {
   return (
     <> 
-     <img src={curve} alt="image of a curve" />
+    <div className="curve_foot">
+     <img src={curve} alt="image of a curve" />     
+    </div>
     <footer>
     <div className='footer_items'>
         <div className='footer-left'>

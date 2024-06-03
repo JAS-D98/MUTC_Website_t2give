@@ -41,7 +41,6 @@
 .logo{
     display: flex;
     align-items: center;
-    gap: 2.5%;
     min-width: 16em;
 }
 .logo-img{

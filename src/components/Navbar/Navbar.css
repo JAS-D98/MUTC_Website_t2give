@@ -40,7 +40,6 @@
 }
 .logo{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 2.5%;
     min-width: 16em;
@@ -226,4 +225,10 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+
+@media screen and (max-width:45em){
+    .logo{
+        float: left;
+    }
 }

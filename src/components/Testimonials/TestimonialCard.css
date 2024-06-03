@@ -6,6 +6,9 @@
     padding: 20px 20px;
     box-shadow: 0px 2px 0px 0px #08213D;
 }
+.testimonial-card:hover{
+    box-shadow: 0px 2px 0px 0px var(--hover-color);
+}
 .testimonial-img{
     width: 2.5em;
     height: 2.5em;

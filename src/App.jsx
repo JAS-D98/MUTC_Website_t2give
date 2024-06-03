@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import TracksPage from "./Pages/TracksPage/TracksPage.jsx";
 import Events from "./Pages/Events/Events.jsx";
+import ErrorPage from "./Pages/404ErrorPage/ErrorPage.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
          <Route path="/Leadership" element={<Leadership/>}/>
          <Route path="/tracks" element={<TracksPage/>}/>
          <Route path="/events" element={<Events/>}/>
+         <Route path="*" element={<ErrorPage/>}/>
       </Routes>
     </BrowserRouter>
      <Footer/>

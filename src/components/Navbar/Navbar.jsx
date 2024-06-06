@@ -36,15 +36,15 @@ export default function Navbar() {
         <Button title="Join Group" className="btn"/>
         </span>
         
-      <div className='gpt3__navbar-menu'>
+      <div className='navbar-menu'>
         {toggleMenu
         ? <img src={close} alt="close icon" width={30} height={30} onClick={()=>setToggleMenu(false)}/>
         : <img src={menu} alt="menu icon" width={30} height={30} onClick={()=>setToggleMenu(true)}/>
         }
         {toggleMenu && (
-           <div className="gpt3__navbar-menu_container scale-up-center">
-               <div className="gpt3__navbar-menu_container-links">
-                <div className='gpt3__navbar-menu_container-links-sign'>
+           <div className="navbar-menu_container scale-up-center">
+               <div className="navbar-menu_container-links">
+                <div className='navbar-menu_container-links-sign'>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/leadership">Leadership</a></li>
